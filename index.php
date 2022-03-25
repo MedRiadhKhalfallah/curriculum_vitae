@@ -6,4 +6,4 @@ $twig = new \Twig\Environment($loader, [
 //    'cache' => __DIR__.'/compilation_cache',
 ]);
 
-echo $twig->render('index.html', ['name' => 'Fabien']);
+echo $twig->render('index.html.twig', ['name' => 'Fabien']);
