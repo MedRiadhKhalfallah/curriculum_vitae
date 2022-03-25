@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="cv" persistUploadOnCheckin="false" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="cv">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/vendors" />
+            <excludedPath path="/Satner Portfolio -doc" />
+            <excludedPath path="/cv site riadh" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
