@@ -222,7 +222,11 @@ button:focus {
   width: 100%;
   z-index: 9999;
   background: #ffffff; }
-  .header_area .menu_nav {
+@media (min-width: 1200px) {
+  .header_area {
+    width: 96%;}
+}
+ .header_area .menu_nav {
     width: 100%; }
   .header_area .navbar {
     background: transparent;
@@ -2644,11 +2648,13 @@ h6 {
 ============================================================================================ */
 /* Start Portfolio Area css
 ============================================================================================ */
+/*
 .portfolio_area {
   padding-bottom: 120px; }
   @media (max-width: 991px) {
     .portfolio_area {
       padding-bottom: 50px; } }
+*/
   .portfolio_area .filters ul {
     padding-left: 0;
     margin-bottom: 50px; }
@@ -2732,6 +2738,10 @@ h6 {
 
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
+  @media (max-width: 1200px) {
+    .portfolio_details_inner .row {
+      padding-top: 60px;
+      margin-bottom: 30px; } }
   @media (max-width: 480px) {
     .portfolio_details_inner .row {
       margin-bottom: 30px; } }
