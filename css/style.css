@@ -260,7 +260,7 @@ button:focus {
               position: absolute;
               top: 120%;
               left: 0px;
-              min-width: 200px;
+              min-width: 210px;
               text-align: left;
               opacity: 0;
               transition: all 300ms ease-in;

@@ -20,4 +20,4 @@ $logos=[
     'logoSociete'=>'img/logo/sofrecom_logo.png',
     'logoClient'=>'img/logo/orange_logo.png',
 ];
-echo $twig->render('refclics.html.twig',['imgs'=>$imgs,'logos'=>$logos]);
+echo $twig->render('gynecologue.html.twig',['imgs'=>$imgs,'logos'=>$logos]);
